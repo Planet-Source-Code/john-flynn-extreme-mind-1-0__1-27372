@@ -1,0 +1,11 @@
+Extreme Mind is a game where the user tries to figure out a random code created by the computer. This board game is based on a game I played as a child called Mastermind. I have seen a couple attempts to re-create this game for the computer but I personally didn't like any of the ones I found, so I wrote my own, and I give it to you.
+
+Since this is my first post to PSC I don't expect to be able to win a coding contest, but your vote would be greatly appreciated. I would really like to see as many comments as possible because I have only been programming since March 2001 and using VB since July 2001, so the more comments the better.
+
+Some interesting things in this code are:
+-Generating random numbers with no duplicates
+-Scanning the code for duplicates
+-Using a high score list
+-Remembering settings (a bit primitive)
+-checking the user's code (pretty involved)
+

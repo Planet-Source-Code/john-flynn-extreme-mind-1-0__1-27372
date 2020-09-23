@@ -1,0 +1,120 @@
+/******************************************************************************/
+/* Update the BODY and change the scroll bar in IE 5.5 and higher             */
+/******************************************************************************/
+BODY
+{
+margin-top: -10px;
+margin-bottom: -10px;
+margin-left: -10px;
+margin-right: -10px;
+background:#6C7198;
+font:10pt "Verdana","Tahoma","Arial";
+SCROLLBAR-FACE-COLOR: #9393ff;
+SCROLLBAR-HIGHLIGHT-COLOR: #6666ff;
+SCROLLBAR-SHADOW-COLOR: #0000dd;
+SCROLLBAR-3DLIGHT-COLOR: #4000ff;
+SCROLLBAR-ARROW-COLOR: #000080;
+SCROLLBAR-TRACK-COLOR: #bfbfff;
+SCROLLBAR-DARKSHADOW-COLOR: #000080
+}
+
+/******************************************************************************/
+/* Headers                                                                    */
+/******************************************************************************/
+H2
+{color:black;font: normal 16pt "Verdana","Tahoma","Arial"}
+
+H2.white
+{color:white;font: normal 18pt "Verdana","Tahoma","Arial"}
+
+H3.white
+{color:white;font: normal 14pt "Courier New","Courier"}
+
+/******************************************************************************/
+/* Paragraphs                                                                 */
+/******************************************************************************/
+P.white
+{color:white;font: normal 10pt "Verdana","Tahoma","Arial"}
+
+/******************************************************************************/
+/* DIV                                                                        */
+/******************************************************************************/
+DIV.white
+{color:white;font: normal 11pt "Verdana","Tahoma","Arial"}
+
+DIV.code
+{color:navy;font: normal 10pt "Courier New","Courier"}
+
+/******************************************************************************/
+/* Table stuff                                                                */
+/******************************************************************************/
+
+td.main /*The main content cell*/
+{
+background-color:#f7dfb5;
+font: normal 10pt "Verdana", "Tahoma", "Arial";
+}
+
+td.left /*The left navigation cell*/
+{
+background: ;
+font: normal 12pt "Courier New", "Courier", "monospace";
+}
+
+td.top /*The top cell*/
+{
+background: ;
+font: normal 12pt "Verdana", "Tahoma", "Arial";
+}
+
+tr
+
+table
+
+/******************************************************************************/
+/* Main links                                                                 */
+/******************************************************************************/
+a:link
+{
+backround:0;
+color:white;
+text-decoration:none;
+}
+
+a:visited
+{
+backround:0;
+color:red;
+text-decoration:none;
+}
+
+a:hover
+{
+backround:0;
+color:blue;
+text-decoration:underline;
+}
+
+a:active
+{
+backround:0;
+color:gold;
+text-decoration:none;
+}
+
+/******************************************************************************/
+/* Left navigation links (use: CLASS="index")                                 */
+/******************************************************************************/
+a.index:link
+{font:12pt "Courier New";backround:0;color:white;text-decoration:none;}
+
+a.index:visited
+{font:12pt "Courier New";backround:0;color:red;text-decoration:none;}
+
+a.index:hover
+{font:12pt "Courier New";backround:0;color:white;text-decoration:underline;}
+
+a.index:active
+{font:12pt "Courier New";backround:0;color:gold;text-decoration:none;}
+
+/******************************************************************************/
